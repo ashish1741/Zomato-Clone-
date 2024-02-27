@@ -2,7 +2,7 @@ import React from 'react'
 
 function NightLife() {
   return (
-    <div>NightLife</div>
+    <div>this is NightLife page</div>
   )
 }
 

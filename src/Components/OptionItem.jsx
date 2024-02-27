@@ -1,8 +1,10 @@
 import React from 'react'
 
-function OptionItem() {
+function OptionItem({activePage, setActivePage}) {
   return (
-    <div>OptionItem</div>
+    <div>
+      <button onClick={() => {setActivePage("NightLife")}}>Click</button>
+    </div>
   )
 }
 

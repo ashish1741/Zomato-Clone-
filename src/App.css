@@ -1,0 +1,64 @@
+
+/* common classes  */
+.max-width {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo 
+{
+    max-width: 100px;
+    padding:  10px 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+}
+.searchBar 
+{
+    display: flex ;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.location-selector
+{
+
+    font-size: 20px;
+    margin: 5px;
+}
+
+.location-search input
+{
+ outline: none;
+ border: none;
+ padding: 10px;
+ font-size: 21px;
+ background-color: rgb(218, 217, 217);
+ border-radius: 15px;
+ width: 100%;
+}
+.userLogin {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly
+    
+
+}
+.login 
+{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
