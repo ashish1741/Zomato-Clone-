@@ -16,7 +16,7 @@ function App() {
         return <Delivery />;
         break;
 
-      case "DingingOut":
+      case "Dining":
         return <DingingOut />;
         break;
 
@@ -30,7 +30,6 @@ function App() {
       <Header />
       <OptionItem activePage= {activePage}  setActivePage={setActivePage} />
       { getPage(activePage)}
-
       <Footer />
     </div>
   );

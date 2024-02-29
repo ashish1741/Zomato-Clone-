@@ -10,9 +10,12 @@ import lizzaPizza from "../assets/lizzaPizza.png"
 import Momo from "../assets/Momo.png"
 import PotatoSagu from "../assets/PotatoSagu.jpg"
 import logo from "../assets/fav-icon.jpg"
+import foodD from "../assets/foodD.png"
+import dinning from "../assets/dinning.png"
+import nightlife from "../assets/nightlife.png"
 
 
-export { logo,  HB , BH , chickenWings , chumin , daddy , LimeLimeon , Pizza , Loard , lizzaPizza , Momo , PotatoSagu}
+export { logo,dinning,nightlife,  foodD,  HB , BH , chickenWings , chumin , daddy , LimeLimeon , Pizza , Loard , lizzaPizza , Momo , PotatoSagu}
 
 
 // fav-icon.jpg 

@@ -1,8 +1,20 @@
 import React from 'react'
 
-function Filter() {
+function Filter({deliveryFilterList}) {
   return (
-    <div>Filter</div>
+    <div className="filter-container">
+      {
+        deliveryFilterList &&  deliveryFilterList.map((ele) => {
+          return (
+            <div className="Filter-Btn">
+            
+              <button>{ele.title}</button>
+            </div>
+          )
+        })
+      }
+    </div>
+    
   )
 }
 

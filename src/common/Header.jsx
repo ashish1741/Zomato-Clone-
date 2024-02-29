@@ -22,10 +22,10 @@ function Header() {
       </div>
       <div className="userLogin">
         <div className="signUp">
-          <LoginIcon />
+          <h2>Sign</h2>
         </div>
         <div className="login">
-          <AssignmentIndIcon />
+        <h2>login</h2>
         </div>
       </div>
     </div>
