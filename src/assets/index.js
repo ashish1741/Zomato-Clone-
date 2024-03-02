@@ -13,9 +13,12 @@ import logo from "../assets/fav-icon.jpg"
 import foodD from "../assets/foodD.png"
 import dinning from "../assets/dinning.png"
 import nightlife from "../assets/nightlife.png"
+import NL from "../assets/NL.jpg"
+import spices from "../assets/spices.jpg"
+import Burger from "../assets/Burger.jpg"
 
 
-export { logo,dinning,nightlife,  foodD,  HB , BH , chickenWings , chumin , daddy , LimeLimeon , Pizza , Loard , lizzaPizza , Momo , PotatoSagu}
+export {spices, Burger,  NL , logo,dinning,nightlife,  foodD,  HB , BH , chickenWings , chumin , daddy , LimeLimeon , Pizza , Loard , lizzaPizza , Momo , PotatoSagu}
 
 
 // fav-icon.jpg 

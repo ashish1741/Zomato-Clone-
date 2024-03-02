@@ -1,9 +1,9 @@
 import React from 'react'
 
-function cards() {
+function Cards() {
   return (
-    <div>cards</div>
+    <div className='max-width'>Cards</div>
   )
 }
 
-export default cards
+export default Cards

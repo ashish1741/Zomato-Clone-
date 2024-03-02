@@ -34,6 +34,7 @@ function OptionItem({ activePage, setActivePage }) {
         {tab.map((curreEle) => {
           return (
             <div
+            key={curreEle.id}
               onClick={() => setActivePage(curreEle.name)}
               className={`tab-item absoultae-center
                 ${activePage === curreEle.name && "activePage"} `}

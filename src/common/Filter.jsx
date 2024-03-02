@@ -6,7 +6,7 @@ function Filter({deliveryFilterList}) {
       {
         deliveryFilterList &&  deliveryFilterList.map((ele) => {
           return (
-            <div className="Filter-Btn">
+            <div className="Filter-Btn" key={ele.id}>
             
               <button>{ele.title}</button>
             </div>
