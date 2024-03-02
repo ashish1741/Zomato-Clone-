@@ -131,7 +131,7 @@ function Delivery() {
       <div className="top-seller">
         <ItemSlider FoodItems={TopBrand} introduction={TopSeller} />
       </div>
-      <div className="card-box">
+      <div className="card-box ">
         <h1>Delivery Restaurants in</h1>
         <div className="">
           <Cards /> 
