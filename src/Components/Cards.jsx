@@ -6,7 +6,7 @@ function Cards({ cardsInfo }) {
   return (
     <div className="card-container max-width">
       {RestaurantMenu && RestaurantMenu.map((card, index) => (
-        <Link key={index} to={`/${card.id}`}>
+        <Link key={index} to={`Delivery/${card.id}`}>
           <div className="cards">
             <div className="card-info">
               <img src={card.img} alt="card-img" />
