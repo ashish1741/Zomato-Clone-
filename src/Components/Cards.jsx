@@ -18,7 +18,7 @@ function Cards({ cardsInfo }) {
                 </div>
                 <div className="right-content">
                   <span>{card.menu[0].rate} *</span>
-                  <span>{card.menu[0].Price}</span>
+                  <span>{card.menu[0].price}</span>
                   <span>{card.distance}</span>
                 </div>
               </div>

@@ -338,3 +338,59 @@ a
   text-decoration: none;
 }
 
+
+.card-details
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  text-align: center;
+}
+.banner img
+{
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Added box shadow for depth */
+  transition: transform 0.3s ease; /* Added transition for hover effect */
+
+}
+.info
+{
+  display: flex;
+  justify-content: space-around;
+}
+.info span {
+  margin-top: 15px;
+  background: #13811b;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 17px;
+  width: 60px; /* Adjusted width */
+  height: 20px; /* Adjusted height */
+  padding: 10px 10px; /* Adjusted padding */
+}
+.banner .location
+{
+  text-align: left;
+  margin-left: 15%;
+  padding: 10px;
+
+}
+.banner .location span
+{
+  font-weight: bold;
+  color: red;
+  text-transform: capitalize;
+}
+.resturentDetails
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -60%;
+}

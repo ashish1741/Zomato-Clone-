@@ -1,20 +1,48 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { RestaurantMenu } from '../data';
 
 function CardDetail() {
   const { id } = useParams();
-  const dataIndex = id - 1;
+  const [data, setData] = useState(null);
 
-  // Check if dataIndex is a valid index for RestaurantMenu
-  if (dataIndex >= 0 && dataIndex < RestaurantMenu.length) {
-    const data = RestaurantMenu[dataIndex];
-    console.log('data is', data);
-  } else {
-    console.log(`Invalid id: ${id}`);
-  }
+  useEffect(() => {
+    const dataIndex = id - 1;
+    if (dataIndex >= 0 && dataIndex < RestaurantMenu.length) {
+      setData(RestaurantMenu[dataIndex]);
+    } else {
+      console.log(`Invalid id: ${id}`);
+    }
+  }, [id]);
 
-  return <div>CardDetail</div>;
+  return (
+    <div className='max-width'>
+      {data && (
+        <div className="card-details container">
+          <div className="banner">
+            <img src={data.img} alt={data.img} style={{width: '70%', height: '50%', borderRadius: '10px', objectFit: 'cover', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.2)', transition: 'transform 0.3s ease'}} />
+            <div className="info">
+              <h1>{data.name}</h1>
+              <span>{data.menu[0].rate} *</span>
+            </div>
+            <div className="location">
+              <h3>{data.address}</h3>
+              <p>{data.distance} 🚚</p>
+              <span>{data.status}</span>
+            </div>
+          </div>
+          <div className="resturentDetails">
+            <div className="menu">
+              <h1>This is menu</h1>
+            </div>
+            <div className="review">
+              <h1>This is review</h1>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default CardDetail;
